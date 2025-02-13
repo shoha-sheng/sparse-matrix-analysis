@@ -50,18 +50,3 @@ python visualize_results.py
 
 ## 🏆 最速のアルゴリズムとデータ構造
 実験結果から、各行列サイズごとに最速の **（データ構造 × アルゴリズム）** の組み合わせを抽出し、表形式で記録する。
-
-| 行列名         | 最速データ構造 | 最速アルゴリズム | 実行時間（秒） |
-|--------------|------------|-------------|------------|
-| bcspwr01.txt | CSR        | Gustavson   | 0.00435    |
-| bcspwr02.txt | List       | Naïve       | 0.00418    |
-| bcspwr03.txt | COO        | Naïve       | 0.00434    |
-| bcspwr04.txt | Skyline    | Naïve       | 0.00532    |
-| bcspwr05.txt | CSR        | Naïve       | 0.00517    |
-| bcspwr06.txt | List       | Naïve       | 0.00577    |
-| bcspwr07.txt | COO        | Naïve       | 0.00593    |
-| bcspwr08.txt | Skyline    | Naïve       | 0.00628    |
-| bcspwr09.txt | List       | Naïve       | 0.00685    |
-| bcspwr10.txt | COO        | Naïve       | 0.00875    |
-
-この結果から、特定のデータ構造とアルゴリズムが行列サイズによって異なる最適性を持つことが確認できる。
